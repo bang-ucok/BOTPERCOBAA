@@ -9,12 +9,12 @@
 let handler = async (m, { conn }) => {
 let ye = `@${m.sender.split`@`[0]}`
 let esce = `
-Hai ${ye} Lagi Nyari Sc Ya? 
+Hai ${ye} Lu Nyari Script Gw YAA, Taruh Nama Gw Pliss Kenichii Di Sc Recode Lu Anjg :) 
 
-Nih Link Sc Nya Dibawah :
-https://youtu.be/AXPzjQ5jxx8
+Nih Link Scriptnya Nya Dibawah :
+https://github.com/Kenichi-BOTZ/KeniBotz-MD
 
-_*Jangan Lupa Di Subscribe*_`
+_*Jangan Lupa Tarok Nama Kenichi Distu Ya Anj, Jangan Gratisan Kasian Gw :)*_`
 conn.sendBut(m.chat, esce, wm3, 'Thanks', 'thanks', m) 
 }
 handler.help = ['sc', 'sourcecode']
