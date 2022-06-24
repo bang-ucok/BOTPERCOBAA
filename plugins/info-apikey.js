@@ -27,9 +27,10 @@ let handler = async m => m.reply(`
 ├➥ *Zeksapi* = apivinz
 ├➥ *shizukaapi* = itsmeiky633
 ├➥ *apivhtear* = 1BlnApiIkyPake
+├➥ *kenichiichi* = 26bb7e7e9c
 ┃ 「 *Pesan Dari My Owner* 」
 ┃ > *Trimakasih Telah Membantu*
-┃ *Jalanya Bot Ini :)*
+┃ *Jalannya Bot Ini :)*
 ┗━━━━━━━━━━━━━━━━
 `.trim()) // Tambah sendiri kalo mau
 handler.help = ['apikey']
