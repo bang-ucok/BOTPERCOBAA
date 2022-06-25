@@ -7,17 +7,15 @@ async function handler(m) {
         this.reply(m.chat, 'Masih ada kuis yang belum terjawab di chat ini', this.game[id].msg)
         throw false
     }
-    let res = await fetch(global.API('https://zenzapis.xyz/entertainment/family100?apikey=26bb7e7e9c', '/game/family100', {}, 'APIKEY'))
+    let res = await fetch(global.API('xteam', '/game/family100', {}, 'APIKEY'))
     if (!res.ok) throw await res.text()
     let json = await res.json()
     if (!json.status) throw json
     let caption = `
 *Soal:* ${json.soal}
-
 Terdapat *${json.jawaban.length}* jawaban${json.jawaban.find(v => v.includes(' ')) ? `
 (beberapa jawaban terdapat spasi)
 `: ''}
-
 +${winScore} XP tiap jawaban benar
     `.trim()
     this.game[id] = {
