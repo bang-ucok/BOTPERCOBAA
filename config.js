@@ -1,21 +1,22 @@
 //=============『 Utama 』================== //
-global.owner = ['62895388375000'] 
+global.owner = ['6287878823108'] 
 global.mods = [] 
-global.prems = [] 
+global.prems = [6281296785755] 
 
 //=============『 Info Owner 』============== //
-global.nameowner = 'Kenichi'
-global.numberowner = '62895388375000'
+global.nameowner = 'OJA'
+global.numberowner = '6287878823108'
 global.instagram = 'https://instagram.com/kenibotz_kenichi'
 global.github = 'https://github.com/Kenichi-BOTZ'
-global.dana = '085161533232'
-global.pulsa = '085161533232'
-global.gopay = '085161533232'
+global.dana = '087878823108'
+global.ovo = '087878823108'
+global.gopay = '087878823108'
+global.shopeepay = '087878823108'
 
 //=============『 Info Bot 』=================//
-global.namebot = 'KeniBotz-Md'
-global.gc = 'https://chat.whatsapp.com/LBHHmgLnr9Y5q7ZkhGikkI'
-global.web = 'https://github.com/Kenichi-BOTZ' //ubah jadi website lu, bisa link ig, link github, link yt, klo link gc ntr beda tampilan lagi. 
+global.namebot = 'Idzihaar-BOT'
+global.gc = 'https://chat.whatsapp.com/I3MsNCSMNKfFA945aDxwx0'
+global.web = 'https://github.com/' //ubah jadi website lu, bisa link ig, link github, link yt, klo link gc ntr beda tampilan lagi. 
 global.price1 = '1 bulan = 10.000\n2 Minggu 7.000\n1 Minggu 5.000'
 
 //=======『 Tampilan Dan Lainnya 』============//
